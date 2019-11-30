@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-        "server": "nodemon server.js"  },
+    "server": "nodemon server.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jinenab/Login-Auth-App.git"
@@ -20,6 +21,7 @@
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
     "concurrently": "^5.0.0",
+    "core-util-is": "^1.0.2",
     "express": "^4.17.1",
     "is-empty": "^1.2.0",
     "jsonwebtoken": "^8.5.1",
