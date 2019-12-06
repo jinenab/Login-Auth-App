@@ -1,9 +1,9 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
-class Navbar extends Component {
-  render() {
-    return (
-      <div className="navbar-fixed">
+import React,{Component} from "react"
+import {Link} from "react-router-dom"
+
+class Navbar extends Component{
+render(){
+  return(<div className="navbar-fixed">
         <nav className="z-depth-0">
           <div className="nav-wrapper white">
             <Link
@@ -18,8 +18,7 @@ class Navbar extends Component {
             </Link>
           </div>
         </nav>
-      </div>
-    );
-  }
+      </div>)
 }
-export default Navbar;
+}
+export default Navbar

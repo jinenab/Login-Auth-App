@@ -1,13 +1,11 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 class Login extends Component {
-  constructor() {
-    super();
-    this.state = {
+
+    state = {
       email: "",
       password: "",
       errors: {}
-    };
   }
 onChange = e => {
     this.setState({ [e.target.id]: e.target.value });
